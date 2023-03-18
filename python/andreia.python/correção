@@ -1,0 +1,28 @@
+num1 = int(input ("Digite o primeiro Numero..: "))
+
+num2 = int(input("Digite o segundo Numero...: "))
+
+print("Digite a operação desejada seguindo a lista abaixo")
+print("\t + para SOMA")
+print("\t - para SUBTRAÇÃO")
+print("\t * para MULTIPLICAÇÃO")
+
+op = input("Operação: ")
+
+if (op=="+") or (op=="SOMA") or (op=="soma"):
+    print("Soma:\t\t", num1+num2) 
+
+elif (op=="-") or (op=="SUBTRAÇÃO") or (op=="subtracao"):
+    print(f"Subtração:\t{num1-num2}")
+
+elif (op=="*") or (op=="MULTIPLICAÇÃO") or (op=="multiplicacao"): 
+    print(f"Multiplicaçao:\t{num1*num2}")
+
+elif (op=="/") or (op=="DIVISÃO") or (op=="divisao"):
+    if num2!=0:
+        print(f"Divisão:\t{num1/num2}")
+    else: # num2 ==0
+        print("Não existe divisão por zero")
+
+
+

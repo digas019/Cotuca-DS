@@ -1,0 +1,43 @@
+@media (min-width: 200px)
+{
+    body{
+        background-color: chocolate;
+
+    }
+
+    #menu ul
+    {
+        padding: 0px;
+        margin: 0px;
+        background-color: darkblue;
+        list-style: none;
+    }
+
+    #menu ul li { display: inline;}
+
+    #menu ul li a 
+    {
+        padding: 15px 60px;
+        display: inline-block;
+        background-color: darkblue;
+        color: cyan;
+        text-decoration: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular';
+        text-decoration: none;
+        border-bottom: 0px solid darkblue ;
+        
+    }
+
+    #menu ul li a:hover {
+
+        background-color: cornflowerblue;
+        border-bottom: 3px solid cyan;
+    }
+
+
+
+
+
+
+
+} /* end do @media /*

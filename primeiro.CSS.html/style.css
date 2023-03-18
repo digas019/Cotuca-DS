@@ -1,0 +1,56 @@
+h1
+{
+    color: aqua;
+    text-align: center;
+    font: 2em sans-serif;
+    background-color: blue;
+    font-style: italic;
+    text-shadow: 2px 3px 5px;
+    box-shadow: 5px 5px blueviolet ;
+
+
+
+}
+
+
+font {
+    font-family:cursive  ;
+    font-size: xx-large ;
+    font-style: initial;
+    font-weight: bolder;
+    text-align: center;
+
+
+}
+
+.formataTitulo {
+
+    color: aqua;
+    text-align: center;
+    font: 2em sans-serif;
+    background-color: blue;
+    font-style: italic;
+
+}
+
+.formataTexto {
+    color: brown;
+    text-align: left;
+    font: 2em arial;
+    font-style: italic;
+
+}
+
+.fundoPagina {background-color: rgb(220, 222, 245);}
+
+.alinhamentoPagina {text-align: center;}
+
+.figuraShitpost {
+    position: absolute;
+    top: 380px;
+    left: 100px;
+    width: 45%;
+    height: 200px;
+    bottom: 100%;
+    background: url(coringacss.jfif) no-repeat;
+}

@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Cadastro</title>
+    </head>
+<font face="arial" size="15" color="#00000">
+    <b>Cadastro</b>
+</font>
+    <form name="frmCadastro" method="post" action="xxx">
+    <table align="left" border="0" widht="45%">
+        <tr>
+            <td>Nome</td>
+            <td><input type="text" name="txtNome" size="35" maxlength="50">
+            </td>
+            <td>Email</td>
+            <td><input type="text" name="txtEmail" size="20" maxlength="50"></td>
+            </tr>
+        <tr>
+            <td>Telefone</td>
+            <td><input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+            </td>
+            <td>Hora Desejada</td>
+            <td><input type="time" id="Hora Desejada" name="Hora Desejada" min="00:00" max="24:59">
+            </td>
+            </tr>
+        <tr>
+            <td>Seu Site</td>
+            <td><input type="text" name="txtSeuSite" size="35" maxlength="50">
+            </td>
+            <td>Senha</td>
+            <td><input type="text" name="txtSenha" size="20" maxlength="50">
+            </td>
+            </tr>
+        <tr>    
+            <td>Data de Nascimento</td>
+            <td><input type="date" id="date"></td>
+            <td>Cor Favorita</td>
+            <td><input type="color"></td>
+        </tr>
+        <tr>
+            <td>Quantidade de Filhos</td>
+            <td><input type="text" name="txtQtdFilho" size="10" maxtlength="30"></td>
+            <td>Peso</td>
+            <td><input id="kilograms" type="number"></td>
+            </tr>
+        <br><br>
+        <tr>
+            <td>Sexo</td>
+            <tr>
+            <td><input type="radio" value="Masculino">Masculino</td>
+                </tr>
+            <tr>
+                <td><input type="radio" value="Feminino">Feminino</td>
+                </tr>
+            </tr>
+        <tr> 
+            <td>Estados</td>
+            <td><select id="UF" name="UF">
+            <option value="">Selecione</option>
+            <option value="GO">GO</option>
+            <option value="PR">PR</option>
+            <option value="RJ">RJ</option>
+            <option value="SP">SP</option>
+         </select>
+            </td>
+        </tr>     
+        <td> DEIXE SEUS COMENTÁRIOS:</td>
+            <td><textarea cols="30" rows="7"></textarea></td>
+
+            <tr>
+                <td><input type="submit" name="btn_Enviar" velue="Enviar Dados"></td>
+                <td><input type="button" name="btn_Copiar" value="Copiar Dados"></td>
+                <td><input type="reset" name="btn_Limpar" value="Limpar Dados"></td>
+            </tr>
+            
+            
+        </table>  
+    </form>
+    </html>

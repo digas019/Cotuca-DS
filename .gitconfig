@@ -1,0 +1,9 @@
+[user]
+	name = digas019
+	email = cc23513@g.unicamp.br
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[pull]
+	rebase = false

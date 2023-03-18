@@ -1,0 +1,26 @@
+num1 = int(input ("Digite um Numero "))
+
+num2 = input("Digite outro Numero ")
+num2 = int(num2)
+quest = input("Soma,Multiplicação, Subtração?")
+resp = quest
+print(resp)
+
+
+
+Soma = num1+num2
+Multiplicação = num1*num2
+Subtração = num1-num2
+
+if resp == Soma:
+    print("Soma:\t\t", num1+num2)
+    
+
+
+
+
+
+
+
+
+
